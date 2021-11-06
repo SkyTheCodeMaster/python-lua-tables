@@ -6,7 +6,7 @@ class Table(dict):
       return None
   def __setattr__(self,k,v):
     if type(v) is dict:
-      temp = ODict()
+      temp = Table()
       for x,y in v.items():
         temp[x] = y
       self[k] = temp
