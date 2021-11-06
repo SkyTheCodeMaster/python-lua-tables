@@ -1,9 +1,6 @@
 class Table(dict):
   def __getattr__(self,x):
-    if x in self:
-      return self[x]
-    else:
-      return None
+    return self.get(x,None)
   def __setattr__(self,k,v):
     if type(v) is dict:
       temp = Table()
