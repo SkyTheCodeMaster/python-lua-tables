@@ -3,7 +3,7 @@ Lua tables in Python
 
 # Example usage:
 ```py
-from table import Table
+from luatable import Table
 
 tbl = Table()
 tbl["x"] = 5
