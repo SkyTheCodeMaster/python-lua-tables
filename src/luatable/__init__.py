@@ -1,1 +1,1 @@
-from table.table import Table
+from luatable.table import Table
