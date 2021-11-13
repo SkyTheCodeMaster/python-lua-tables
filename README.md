@@ -1,4 +1,4 @@
-# python-lua-tables
+# luatables
 Lua tables in Python
 
 # Example usage:
